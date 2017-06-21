@@ -1,0 +1,25 @@
+
+ul,li,dl,ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 768px){
+    .modal>.modal-dialog{
+        margin: 250px auto;
+    }
+}
+
+div{ margin:0 auto; width:400px; height:80px; border:1px solid #00F} 
+
+.left{
+    width: 20%;
+    height: 100%;
+    background-color: red;
+}
+.right{
+    width: 60%;
+    height: 100%;
+    background-color: blue; 
+}
